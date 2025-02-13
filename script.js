@@ -205,4 +205,6 @@ function crearTarjetas() {
 
     app.appendChild(tarjeta);
   });
+
+  
 }
