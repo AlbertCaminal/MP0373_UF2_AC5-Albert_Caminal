@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 300px;
+  margin: 30px auto;
+  border: 7px solid #2874f0;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+span {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 3em;
+  color: black;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: #cc0000;
+}
+.blue {
+  background-color: #0000cc;
+}
+.green {
+  background-color: #008000;
+}
+.orange {
+  background-color: #ff9900;
+}
+.yellow {
+  background-color: #ffcc00;
+}
+.purple {
+  background-color: #800080;
+}
+
+.container-list {
+  width: 350px;
+  margin: 40px auto;
+  background-color: #fff;    
+  border-radius: 8px;        
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.349);
+  padding: 20px;
+  text-align: center;  
+}
+
+#crear {
+  background-color: #28a745; 
+  color: #fff;            
+  font-size: 1rem;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;       
+}
+
+#crear:hover {
+  background-color: #218838; 
+}
+
+#llista {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+
+.element {
+  background-color: #ebebeb; 
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center; 
+}
+
+#crearTarjetas {
+  background-color: #28a745; 
+  color: #fff;            
+  font-size: 1rem;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;  
+  margin: 0 auto;    
+}
+
+.tarjeta {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;             
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.336); 
+  text-align: center;    
+  margin: 0 auto;   
+}
+
+.tarjeta h1 {
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tarjeta p {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.tarjeta h2 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.tarjeta ul {
+  list-style: none;       
+  padding: 0;             
+  display: flex;           
+  gap: 10px;               
+  justify-content: center; 
+  flex-wrap: wrap;         
+}
+
+.tarjeta li {
+  background-color: #ff9800;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.tarjeta img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;  
+  justify-content: center; 
+  margin: 40px; 
+}
