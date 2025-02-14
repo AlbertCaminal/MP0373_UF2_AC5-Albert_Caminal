@@ -89,11 +89,8 @@ function crearElemento() {
   let li = document.createElement("li");
 
   li.textContent = "Aquest és l’element " + contadorElementos + " de la llista";
-
   li.classList.add("element");
-
   li.id = "element" + contadorElementos;
-
   ul.appendChild(li);
 }
 
@@ -150,8 +147,11 @@ const filosofos = [
 function crearTarjeta() {
   let tarjeta = document.createElement("div");
   tarjeta.classList.add("tarjeta");
-  let body = document.querySelector("body");
-  body.append(tarjeta);
+
+  let containerCards = document.querySelector(".container-cards");
+  let btnCrearTarjetas = document.getElementById("crearTarjetas");
+
+  containerCards.insertBefore(tarjeta, btnCrearTarjetas);
 
   let nombre = document.createElement("h1");
   nombre.innerHTML = user.nombre + " " + user.apellido;
@@ -205,6 +205,4 @@ function crearTarjetas() {
 
     app.appendChild(tarjeta);
   });
-
-  
 }

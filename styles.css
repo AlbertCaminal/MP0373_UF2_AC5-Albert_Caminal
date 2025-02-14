@@ -135,7 +135,7 @@ span {
 
 .tarjeta h2 {
   margin-bottom: 15px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -143,7 +143,7 @@ span {
   list-style: none;       
   padding: 0;             
   display: flex;           
-  gap: 10px;               
+  gap: 15px;               
   justify-content: center; 
   flex-wrap: wrap;         
 }
@@ -169,4 +169,8 @@ span {
   gap: 1rem;  
   justify-content: center; 
   margin: 40px; 
+}
+
+.container-cards .tarjeta {
+  margin-bottom: 40px;
 }
